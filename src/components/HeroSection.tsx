@@ -52,7 +52,7 @@ const HeroSection = () => {
           initial={{ y: 60, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="text-5xl md:text-7xl lg:text-8xl font-black leading-tight max-w-5xl"
+          className="text-5xl md:text-7xl lg:text-8xl font-black leading-tight max-w-5xl font-heading"
         >
           Energy Saving{" "}
           <span className="text-gradient">Renewable Solar</span>

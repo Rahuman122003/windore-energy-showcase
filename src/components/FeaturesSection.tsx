@@ -35,7 +35,7 @@ const FeaturesSection = () => (
             <div className="p-3 rounded-xl bg-primary/10">
               <f.icon className="w-6 h-6 text-primary" />
             </div>
-            <h3 className="text-lg font-semibold">{f.title}</h3>
+            <h3 className="text-lg font-semibold font-heading">{f.title}</h3>
             <p className="text-sm text-foreground/50 leading-relaxed">{f.description}</p>
           </motion.div>
         ))}

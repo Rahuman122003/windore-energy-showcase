@@ -9,7 +9,7 @@ const CTASection = () => (
       transition={{ duration: 0.8 }}
       className="max-w-3xl mx-auto text-center"
     >
-      <h2 className="text-4xl md:text-5xl font-bold mb-6">
+      <h2 className="text-4xl md:text-5xl font-bold mb-6 font-heading">
         Start Your <span className="text-gradient">Solar Journey</span> Today
       </h2>
       <p className="text-foreground/50 text-lg mb-10">

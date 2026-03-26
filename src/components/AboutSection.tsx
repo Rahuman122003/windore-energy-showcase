@@ -10,7 +10,7 @@ const AboutSection = () => (
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
+        <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-6 font-heading">
           Powering the Future with{" "}
           <span className="text-gradient">Clean Energy</span>
         </h2>

@@ -15,7 +15,7 @@ const Navbar = () => {
       style={{ scale, opacity }}
       className="fixed top-6 left-1/2 -translate-x-1/2 z-50 glass-card px-8 py-3 flex items-center gap-8"
     >
-      <span className="text-lg font-bold text-gradient mr-4">Probiz Energy</span>
+      <span className="text-lg font-bold text-gradient mr-4 font-heading">Probiz Energy</span>
       <div className="hidden md:flex items-center gap-6">
         {navLinks.map((link) => (
           <a

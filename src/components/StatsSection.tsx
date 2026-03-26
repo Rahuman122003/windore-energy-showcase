@@ -30,7 +30,7 @@ const CountUp = ({ target, suffix }: { target: number; suffix: string }) => {
   }, [inView, target]);
 
   return (
-    <span ref={ref} className="text-5xl md:text-6xl font-black text-gradient">
+    <span ref={ref} className="text-5xl md:text-6xl font-black text-gradient font-display">
       {count.toLocaleString()}{suffix}
     </span>
   );
