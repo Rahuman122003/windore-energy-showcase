@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import aboutImage from "@/assets/about-image.jpg";
+import solarPanels from "@/assets/solar-panels.jpeg";
 
 const AboutSection = () => (
   <section id="about" className="relative py-32 px-6 noise-overlay">
@@ -35,12 +35,10 @@ const AboutSection = () => (
       >
         <div className="glass-card overflow-hidden rounded-2xl">
           <img
-            src={aboutImage}
-            alt="Solar panels at sunset"
+            src={solarPanels}
+            alt="Solar panels powering cities globally"
             className="w-full h-[400px] object-cover"
             loading="lazy"
-            width={800}
-            height={1024}
           />
         </div>
         <div className="absolute -bottom-4 -left-4 glass-card px-6 py-3 animate-float">
