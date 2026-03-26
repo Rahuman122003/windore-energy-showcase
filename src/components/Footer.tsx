@@ -83,15 +83,15 @@ const Footer = () => (
           <div className="flex flex-col gap-3">
             <div className="flex items-center gap-2 text-sm text-foreground/40">
               <Mail className="w-4 h-4 text-primary" />
-              hello@probizenergy.com
+              sales@probizenergy.com
             </div>
             <div className="flex items-center gap-2 text-sm text-foreground/40">
               <Phone className="w-4 h-4 text-primary" />
-              +1 (800) 555-SOLAR
+              +91 99000 29602
             </div>
             <div className="flex items-center gap-2 text-sm text-foreground/40">
               <MapPin className="w-4 h-4 text-primary" />
-              Austin, TX 78701
+              Bengaluru, Coimbatore, Chennai, Trichy.
             </div>
           </div>
         </motion.div>

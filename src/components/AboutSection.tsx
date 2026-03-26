@@ -43,7 +43,7 @@ const AboutSection = () => (
         </div>
         <div className="absolute -bottom-4 -left-4 glass-card px-6 py-3 animate-float">
           <p className="text-sm font-semibold">
-            <span className="text-gradient">10+</span> Years of Excellence
+            <span className="text-gradient">5+</span> Years of Excellence
           </p>
         </div>
       </motion.div>

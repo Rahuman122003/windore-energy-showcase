@@ -48,7 +48,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3 className="font-heading font-bold mb-1">Email Us</h3>
-                <p className="text-muted-foreground text-sm">hello@probizenergy.com</p>
+                <p className="text-muted-foreground text-sm">sales@probizenergy.com</p>
               </div>
             </div>
             <div className="glass-card p-6 flex items-start gap-4 glass-card-hover transition-all">
@@ -57,7 +57,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3 className="font-heading font-bold mb-1">Call Us</h3>
-                <p className="text-muted-foreground text-sm">+1 (800) 555-SOLAR</p>
+                <p className="text-muted-foreground text-sm">+91 99000 29602</p>
               </div>
             </div>
             <div className="glass-card p-6 flex items-start gap-4 glass-card-hover transition-all">
@@ -66,7 +66,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3 className="font-heading font-bold mb-1">Visit Us</h3>
-                <p className="text-muted-foreground text-sm">123 Solar Avenue, Austin, TX 78701</p>
+                <p className="text-muted-foreground text-sm">Bengaluru, Coimbatore, Chennai, Trichy.</p>
               </div>
             </div>
           </motion.div>

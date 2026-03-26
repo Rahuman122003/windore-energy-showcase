@@ -97,7 +97,7 @@ const HeroSection = () => {
           className="mt-16 glass-card px-8 py-4 animate-float"
         >
           <p className="text-sm text-foreground/50">
-            Trusted by <span className="text-gradient font-bold">5,000+</span> homeowners worldwide
+            Trusted by <span className="text-gradient font-bold">100+</span> homeowners worldwide
           </p>
         </motion.div>
       </div>

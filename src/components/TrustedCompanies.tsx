@@ -1,16 +1,16 @@
 import { motion } from "framer-motion";
 
 const companies = [
-  "Tesla Energy",
-  "SunPower",
-  "Enphase",
-  "First Solar",
-  "Canadian Solar",
-  "SolarEdge",
-  "Vestas",
-  "Siemens Gamesa",
-  "GE Renewable",
-  "NextEra Energy",
+  "Brigade group",
+  "Puravankara",
+  "BMRL",
+  "Divyasree",
+  "Infiniti",
+  "Brigade group",
+  "Puravankara",
+  "BMRL",
+  "Divyasree",
+  "Infiniti",
 ];
 
 const TrustedCompanies = () => (
