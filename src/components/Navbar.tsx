@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import probizLogo from "@/assets/probiz-logo.jpg";
+import probizLogo from "@/assets/probiz-logo.png";
 
 const navLinks = ["Home", "About", "Services", "Contact"];
 

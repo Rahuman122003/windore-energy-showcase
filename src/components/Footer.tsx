@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin } from "lucide-react";
-import probizLogo from "@/assets/probiz-logo.jpg";
+import probizLogo from "@/assets/footer-bg.png";
 
 const Footer = () => (
   <footer className="relative overflow-hidden">
