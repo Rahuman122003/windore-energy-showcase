@@ -17,7 +17,7 @@ const Navbar = () => {
       className="fixed top-4 left-0 right-0 z-50 flex justify-center px-4"
     >
       <div className="glass-card px-8 py-3 flex items-center justify-center gap-8">
-        <img src={probizLogo} alt="Probiz Energy" className="h-8 w-auto rounded" />
+        <img src={probizLogo} alt="Probiz Energy" className="h-12 w-auto" />
         <div className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
             <a
