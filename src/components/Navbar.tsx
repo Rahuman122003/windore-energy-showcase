@@ -1,4 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
+import probizLogo from "@/assets/probiz-logo.jpg";
 
 const navLinks = ["Home", "About", "Services", "Contact"];
 
@@ -15,7 +16,7 @@ const Navbar = () => {
       style={{ scale, opacity }}
       className="fixed top-6 left-1/2 -translate-x-1/2 z-50 glass-card px-8 py-3 flex items-center gap-8"
     >
-      <span className="text-lg font-bold text-gradient mr-4 font-heading">Probiz Energy</span>
+      <img src={probizLogo} alt="Probiz Energy" className="h-8 w-auto rounded" />
       <div className="hidden md:flex items-center gap-6">
         {navLinks.map((link) => (
           <a

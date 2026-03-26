@@ -2,7 +2,6 @@ import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import heroBg from "@/assets/hero-bg.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -26,7 +25,7 @@ const HeroSection = () => {
 
   return (
     <section id="home" className="relative h-screen overflow-hidden noise-overlay">
-      {/* Parallax BG */}
+      {/* Parallax Video BG */}
       <motion.div
         ref={bgRef}
         initial={{ opacity: 0 }}
@@ -34,13 +33,15 @@ const HeroSection = () => {
         transition={{ duration: 2 }}
         className="absolute inset-0 -top-[10%] h-[120%]"
       >
-        <img
-          src={heroBg}
-          alt="Solar farm at golden hour"
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
           className="w-full h-full object-cover"
-          width={1920}
-          height={1080}
-        />
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
       </motion.div>
 
       {/* Gradient overlay */}
