@@ -24,7 +24,7 @@ const ContactSection = () => {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="max-w-6xl mx-auto"
+        className="max-w-6xl mx-auto relative z-10"
       >
         <h2 className="text-3xl md:text-5xl font-bold font-heading text-center mb-4">
           Get In <span className="text-gradient">Touch</span>
