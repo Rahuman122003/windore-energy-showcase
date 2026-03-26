@@ -28,7 +28,7 @@ const Footer = () => (
           className="md:col-span-1"
         >
           <div className="flex items-center gap-3 mb-4">
-            <img src={probizLogo} alt="Probiz Energy" className="h-10 w-auto rounded" />
+            <img src={probizLogo} alt="Probiz Energy" className="h-14 w-auto" />
             <span className="text-xl font-bold font-heading text-gradient">Probiz Energy</span>
           </div>
           <p className="text-sm text-foreground/40 leading-relaxed">

@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronLeft, ChevronRight, Star } from "lucide-react";
+import { Star } from "lucide-react";
 
 const testimonials = [
   {
@@ -32,8 +32,12 @@ const testimonials = [
 const TestimonialsSection = () => {
   const [current, setCurrent] = useState(0);
 
-  const next = () => setCurrent((p) => (p + 1) % testimonials.length);
-  const prev = () => setCurrent((p) => (p - 1 + testimonials.length) % testimonials.length);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((p) => (p + 1) % testimonials.length);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, []);
 
   const t = testimonials[current];
 
@@ -71,21 +75,6 @@ const TestimonialsSection = () => {
               <p className="text-sm text-muted-foreground">{t.role}</p>
             </motion.div>
           </AnimatePresence>
-
-          <button
-            onClick={prev}
-            className="absolute left-4 top-1/2 -translate-y-1/2 glass-card p-2 rounded-full hover:bg-accent/20 transition-colors"
-            aria-label="Previous testimonial"
-          >
-            <ChevronLeft className="w-5 h-5 text-foreground/60" />
-          </button>
-          <button
-            onClick={next}
-            className="absolute right-4 top-1/2 -translate-y-1/2 glass-card p-2 rounded-full hover:bg-accent/20 transition-colors"
-            aria-label="Next testimonial"
-          >
-            <ChevronRight className="w-5 h-5 text-foreground/60" />
-          </button>
         </div>
 
         <div className="flex gap-2 justify-center mt-6">
