@@ -12,12 +12,19 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-28 px-6 noise-overlay">
+    <section id="contact" className="relative py-28 px-6 overflow-hidden">
+      {/* Video Background */}
+      <div className="absolute inset-0">
+        <video autoPlay muted loop playsInline className="w-full h-full object-cover">
+          <source src="/contact-video.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
+      </div>
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="max-w-6xl mx-auto"
+        className="max-w-6xl mx-auto relative z-10"
       >
         <h2 className="text-3xl md:text-5xl font-bold font-heading text-center mb-4">
           Get In <span className="text-gradient">Touch</span>
