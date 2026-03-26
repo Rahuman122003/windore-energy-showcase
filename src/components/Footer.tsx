@@ -91,7 +91,7 @@ const Footer = () => (
             </div>
             <div className="flex items-center gap-2 text-sm text-foreground/40">
               <MapPin className="w-4 h-4 text-primary" />
-              Bengaluru, Coimbatore, Chennai, Trichy.
+              Bengaluru, Hosur, Coimbatore, Chennai, Trichy, Madurai, Nellai & Nagercoil.
             </div>
           </div>
         </motion.div>

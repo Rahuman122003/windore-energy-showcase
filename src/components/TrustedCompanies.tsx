@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 const companies = [
   "Brigade group",
   "Puravankara",
-  "BMRL",
+  "BMRCL",
   "Divyasree",
   "Infiniti",
   "Brigade group",
   "Puravankara",
-  "BMRL",
+  "BMRCL",
   "Divyasree",
   "Infiniti",
 ];

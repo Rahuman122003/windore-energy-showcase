@@ -65,8 +65,8 @@ const ContactSection = () => {
                 <MapPin className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h3 className="font-heading font-bold mb-1">Visit Us</h3>
-                <p className="text-muted-foreground text-sm">Bengaluru, Coimbatore, Chennai, Trichy.</p>
+                <h3 className="font-heading font-bold mb-1">Our Locations</h3>
+                <p className="text-muted-foreground text-sm">Bengaluru, Hosur, Coimbatore, Chennai, Trichy, Madurai, Nellai & Nagercoil.</p>
               </div>
             </div>
           </motion.div>

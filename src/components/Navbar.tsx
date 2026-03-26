@@ -35,7 +35,7 @@ const Navbar = () => {
       "
       >
         {/* Liquid highlight overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-green-200/40 via-white/10 to-transparent opacity-60 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-amber-100/40 via-slate-500/10 to-transparent opacity-60 pointer-events-none" />
 
         {/* Logo */}
         <img
