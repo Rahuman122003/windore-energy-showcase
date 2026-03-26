@@ -16,7 +16,7 @@ const FeaturesSection = () => (
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="text-4xl md:text-5xl font-bold text-center mb-16"
+        className="text-4xl md:text-5xl font-bold text-center mb-16 font-heading"
       >
         Why Choose <span className="text-gradient">Probiz Energy</span>
       </motion.h2>
