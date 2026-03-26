@@ -52,10 +52,11 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        solar: {
-          orange: "hsl(var(--solar-orange))",
-          amber: "hsl(var(--solar-amber))",
-          gold: "hsl(var(--solar-gold))",
+        probiz: {
+          teal: "hsl(var(--probiz-teal))",
+          green: "hsl(var(--probiz-green))",
+          blue: "hsl(var(--probiz-blue))",
+          lightblue: "hsl(var(--probiz-lightblue))",
         },
       },
       borderRadius: {
