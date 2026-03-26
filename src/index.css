@@ -101,6 +101,21 @@
     box-shadow: 0 0 30px hsl(var(--solar-orange) / 0.5);
   }
 
+  .marquee-track {
+    display: flex;
+    animation: marquee-scroll 30s linear infinite;
+    width: max-content;
+  }
+
+  .marquee-track:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes marquee-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
   .noise-overlay::after {
     content: '';
     position: absolute;
