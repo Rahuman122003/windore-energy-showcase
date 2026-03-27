@@ -4,27 +4,21 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Mitchell",
-    role: "Homeowner, Austin TX",
+    name: "Kavya",
+    role: "Procurement, Divayasree",
     quote: "Probiz Energy transformed our home. Our electricity bill dropped by 60% in the first month. The installation was seamless and the team was incredibly professional.",
-    rating: 5,
+    rating: 4.5,
   },
   {
-    name: "James Rodriguez",
-    role: "CEO, GreenTech Solutions",
+    name: "Abdul Jaleel",
+    role: "Project Manager, Brigade Group",
     quote: "We partnered with Probiz for our corporate campus solar installation. Their expertise in large-scale projects is unmatched. Highly recommend for commercial deployments.",
-    rating: 5,
+    rating: 4,
   },
   {
-    name: "Emily Chen",
-    role: "Property Developer",
+    name: "Satish",
+    role: "Managing Director, Infiniti",
     quote: "Every new development we build now includes Probiz solar panels. It adds tremendous value to our properties and our buyers love the energy savings.",
-    rating: 5,
-  },
-  {
-    name: "David Okafor",
-    role: "Sustainability Director",
-    quote: "Working with Probiz helped us achieve our net-zero goals two years ahead of schedule. Their renewable energy solutions are world-class.",
     rating: 5,
   },
 ];

@@ -59,10 +59,19 @@ const HeroSection = () => {
           <span className="text-gradient">Renewable Solar</span>
         </motion.h1>
 
+        <motion.h2
+          initial={{ y: 60, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 2, delay: 0.5 }}
+          className="text-2xl md:text-4xl lg:text-5xl font-black leading-tight max-w-2xl font-heading"
+        >
+          <span className="text-gradient">Save Energy upto 40%</span> 
+        </motion.h2>
+
         <motion.p
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 0.8 }}
+          transition={{ duration: 2, delay: 0.8 }}
           className="mt-6 text-lg md:text-xl text-foreground/60 max-w-2xl"
         >
           Sustainable energy solutions for a cleaner future
