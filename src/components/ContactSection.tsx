@@ -28,18 +28,18 @@ const ContactSection = () => {
     try {
       // Send to Admin
       await emailjs.send(
-        "service_747zv3d",
-        "template_n5a9sjq",
+        "service_5kw421j",
+        "template_x25z599",
         formData,
-        "DjTjXjgjnICmUiUeV"
+        "WIjfd_siVXjHEJd2I"
       );
 
       // Auto reply to user
       await emailjs.send(
-        "service_747zv3d",
-        "template_58fv455",
+        "service_5kw421j",
+        "template_afupbsi",
         formData,
-        "DjTjXjgjnICmUiUeV"
+        "WIjfd_siVXjHEJd2I"
       );
 
       toast.success("Message sent successfully 🚀");
